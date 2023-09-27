@@ -6,8 +6,14 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws ArrayListFullException {
         MyArrayList<Integer> arrayList = new MyArrayList<>();
-        arrayList.addElement(1);
-        arrayList.addElement(2);
-        arrayList.addElement(3);
+
+
+        for (int i = 0; i < 10; i++) {
+            arrayList.addElement(i);
+            System.out.println(i);
+        }
+        arrayList.addElement(10);
+
+
     }
 }

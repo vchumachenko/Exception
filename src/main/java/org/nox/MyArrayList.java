@@ -11,4 +11,11 @@ public class MyArrayList<T> {
         }
         list.add(element);
     }
+
+    @Override
+    public String toString() {
+        return "MyArrayList{" +
+                "list=" + list +
+                '}';
+    }
 }
